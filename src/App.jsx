@@ -5,26 +5,20 @@ import Counter from './Counter'
 
 // Most asked react js interview question
  
-// Q1  What is the difference between state and props in React? ✅
-// Q2  What is High order component in React?
-// Q3  What is the use of useEffect in React?
-// Q4  What is the use of useState in React?
-// Q5  What is the use of useRef in React?
-// Q6  What is the use of useCallback in React?
-// Q7  What is the use of useMemo in React?
-// Q8  What is the use of useReducer in React?
-// Q9 What is the use of useLayoutEffect in React?
-// Q10 what is propdilling in React?
-// Q11 what is context Api in React? 
-// Q12 what is redux in React?
-// Q13 what is router in React?
-// Q14 what is HOC in React?
-// Q15 what is functional component in React?
-// Q16 what is class component in React?
-// Q17 what is hooks in React?
-// Q18 what is lifecycle in React?
-// Q19 what is routing in React?
-// Q20 what is react-redux in React?
+// React kya hai aur iska use kyun hota hai? ✅
+// React me state aur props mein kya farq hai? ✅
+// React components kitne types ke hote hain aur unka kya role hai? ✅
+// Aapko React Hooks ke bare mein kya maloom hai? Kaunse commonly used hooks hain? 
+// React me lifecycle methods kya hoti hain aur functional components me unka replacement kya hai?
+// Context API kya hai, aur iska use kab aur kyun hota hai?
+// React.memo aur useMemo hook ke darmiyan kya farq hai? In dono ka use performance optimization ke liye kaise kiya jata hai?
+// React me Suspense aur lazy loading ka kya role hai, aur inhe implement kaise karte hain?
+// Higher-Order Components (HOC) kya hote hain, aur kab use kiye jate hain?
+// Agar aapko ek large application mein state management handle karni hai, toh Redux ya Context API kaise choose karenge?
+// Server-Side Rendering (SSR) aur Client-Side Rendering (CSR) mein kya farq hai? SSR ko React ke sath implement karne ka tarika kya hai?
+// React Router me nested routing kaise manage karte hain, aur yeh kis scenarios me zaroori hota hai?
+// Aapko custom hooks ka concept samajh aata hai? Koi example de ke batayein kahan aur kaise use karenge?
+
 const App = () => {
   // const [count, setCount] = useState(0)
   // return (
