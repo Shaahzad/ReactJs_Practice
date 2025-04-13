@@ -21,9 +21,11 @@ const Form = () => {
                     backgroundColor: '#fff',
                     padding: '20px',
                     borderRadius: '10px',
-                    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+                    boxShadow: '0 20px 20px rgba(0, 0, 0, 0.1)',
                     width: '300px',
                     gap: '10px',
+                    border: '1px solid #ccc',
+                    
                 }}>
                 <h1 style={{ marginBottom: 10 }}>React Hook Form</h1>
 
