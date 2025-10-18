@@ -2,6 +2,9 @@ import React from 'react'
 import Item from './Item'
 import Cart from './Cart'
 import Form from './hook-form/Form'
+import { Usememohook } from './usememo'
+import { WithCallbackExample } from './useCallbackhook'
+import UseRefhook from './useRefhook'
 
 const App = () => {
   return (
@@ -10,7 +13,10 @@ const App = () => {
       <Item name="Php" price="25000"/>
       <Item name="Laravel" price="25000"/>
       <Cart/> */}
-      <Form/>
+      {/* <Form/> */}
+      {/* <Usememohook/> */}
+      {/* <WithCallbackExample/> */}
+      <UseRefhook/>
     </div>
   )
 }
