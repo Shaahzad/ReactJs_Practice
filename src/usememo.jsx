@@ -1,46 +1,21 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 
 export const Usememohook = () => {
-    const [count, setCount] = useState(0);
-    const [todos, setTodos] = useState([]);
-    const calculation = useMemo(() => {
-        expensiveCalculation(count);
-    }, [count])
-
-    const increment = () => {
-        setCount((c) => c + 1);
-    };
-    const addTodo = () => {
-        setTodos((t) => [...t, "New Todo"]);
-    };
-
+    const [count, setCount] = useState(0)
+    const countRef = useRef(0)
     return (
-        <div>
-            <div>
-                <h2>My Todos</h2>
-                {todos.map((todo, index) => {
-                    return <p key={index}>{todo}</p>;
-                })}
-                <button onClick={addTodo}>Add Todo</button>
-            </div>
-            <hr />
-            <div>
-                Count: {count}
-                <button onClick={increment}>+</button>
-                <h2>Expensive Calculation</h2>
-                {calculation}
-                <p>Note that this example executes the expensive function also when you click on the Add Todo button.</p>
-            </div>
+        <>
+        <h1 style={{ textAlign: 'center' }}>UseRef Practice</h1>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px', gap: '8px'}}>
+            <span>{count}</span>
+            <span>{countRef}</span>
+            <button style={{padding: '10px 10px'}}>Count</button>
+            <button style={{padding: '10px 10px'}}>CountRef</button>
         </div>
+        </>
+
     );
 };
 
-const expensiveCalculation = (num) => {
-    console.log("Calculating...");
-    for (let i = 0; i < 100; i++) {
-        num += 1;
-    }
-    return num;
-};
 
 
