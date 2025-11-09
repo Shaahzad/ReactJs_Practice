@@ -26,9 +26,9 @@ setValue((val)=> val+1)
       {/* <WithCallbackExample/> */}
       {/* <UseRefhook/> */}
       {/* <Userefhook/> */}
-      <div className='app'>
+      {/* <div className='app'>
       <Progressbar value={value}/>
-      </div>
+      </div> */}
     </div>
   )
 }
