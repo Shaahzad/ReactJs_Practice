@@ -6,6 +6,7 @@ import { Usememohook } from './usememo'
 import { WithCallbackExample } from './useCallbackhook'
 import Userefhook from './Userefhook'
 import Progressbar from './progress.bar'
+import AllUser from './AllUser'
 
 const App = () => {
 const [value, setValue] = useState(0)
@@ -29,6 +30,7 @@ setValue((val)=> val+1)
       {/* <div className='app'>
       <Progressbar value={value}/>
       </div> */}
+      <AllUser/>
     </div>
   )
 }
