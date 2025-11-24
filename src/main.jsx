@@ -1,7 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-// import { CartProvider } from './Context/Cartcontext.jsx'
-import "./App.css"
+import './index.css'
 import {
   QueryClient,
   QueryClientProvider,
