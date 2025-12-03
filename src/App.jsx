@@ -1,22 +1,23 @@
 import React, { useEffect, useState } from 'react'
 import Item from './Item'
 import Cart from './Cart'
-import Form from './hook-form/Form'
+// import Form from './hook-form/Form'
 import { Usememohook } from './usememo'
 import { WithCallbackExample } from './useCallbackhook'
 import Userefhook from './Userefhook'
 import Progressbar from './progress.bar'
 import AllUser from './AllUser'
 import Inputtag from './Inputtag'
+import Form from './Form'
 
 const App = () => {
 const [value, setValue] = useState(0)
 
-useEffect(()=>{
-setInterval(()=>{
-setValue((val)=> val+1)
-},100)
-},[])
+// useEffect(()=>{
+// setInterval(()=>{
+// setValue((val)=> val+1)
+// },100)
+// },[])
   return (
     <div>
       {/* <Item name="WordPress" price="25000"/>
@@ -32,7 +33,8 @@ setValue((val)=> val+1)
       <Progressbar value={value}/>
       </div> */}
       {/* <AllUser/> */}
-      <Inputtag/>
+      {/* <Inputtag/> */}
+      <Form/>
     </div>
   )
 }
