@@ -9,6 +9,8 @@ import Progressbar from './progress.bar'
 import AllUser from './AllUser'
 import Inputtag from './Inputtag'
 import Form from './Form'
+import UserComponent from './UserComponent'
+import Userform from './Userform'
 
 const App = () => {
 const [value, setValue] = useState(0)
@@ -34,7 +36,9 @@ const [value, setValue] = useState(0)
       </div> */}
       {/* <AllUser/> */}
       {/* <Inputtag/> */}
-      <Form/>
+      {/* <Form/> */}
+      {/* <UserComponent/> */}
+      <Userform/>
     </div>
   )
 }
